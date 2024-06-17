@@ -26,7 +26,7 @@ function App() {
   const [resultsType, setResultsType] = useState<ResultsType>(null);
 
   useEffect(() => {
-    const LICENSE_KEY = import.meta.env.VITE_SDK_KEY;
+    const LICENSE_KEY = import.meta.env.VITE_SDK_LICENSE_KEY;
 
     const scanbotOptions = {
       licenseKey: LICENSE_KEY,
